@@ -1,0 +1,7 @@
+# 源码路径（相对于本任务目录）
+代码/old_care_system/code/checkingstrangersandfacialexpression.py
+代码/old_care_system/code/testingfacerecognition.py
+代码/old_care_system/code/trainingfacerecognition.py
+代码/old_care_system/models/face_recognition_hog.pickle
+代码/old_care_system/info/people_info.csv
+代码/old_care_system/code/oldcare/facial

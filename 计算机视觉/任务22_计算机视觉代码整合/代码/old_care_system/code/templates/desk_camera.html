@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ location_name }}摄像头实时画面</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .header {
+      margin-bottom: 16px;
+    }
+    .header h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+    .panel {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+    .status {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #14532d;
+      color: #bbf7d0;
+      font-size: 14px;
+    }
+    .video-box {
+      overflow: hidden;
+      border-radius: 10px;
+      background: #000000;
+    }
+    .video-box img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .tips {
+      margin-top: 12px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>{{ location_name }}摄像头</h1>
+      <div>实时显示当前摄像头画面，适用于本地巡检与联调。</div>
+    </div>
+    <div class="panel">
+      <div class="status">实时流已连接</div>
+      <div class="video-box">
+        <img id="video" src="{{ url_for('video_viewer') }}" alt="{{ location_name }}摄像头实时画面">
+      </div>
+      <div class="tips">如果画面未显示，请确认摄像头未被其他程序占用，并检查服务端控制台输出。</div>
+    </div>
+  </div>
+</body>
+</html>

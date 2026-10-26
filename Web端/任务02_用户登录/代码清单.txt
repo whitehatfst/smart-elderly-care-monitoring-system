@@ -1,0 +1,8 @@
+# 源码路径（相对于本任务目录）
+代码/oldcaresystemweb/app/mod_auth
+代码/oldcaresystemweb/app/mod_user
+代码/oldcaresystemweb/app/templates/login.html
+代码/oldcaresystemweb/app/templates/base.html
+代码/oldcaresystemweb/app/templates/index.html
+代码/oldcaresystemweb/app/__init__.py
+代码/oldcaresystemweb/runit.py

@@ -1,0 +1,7 @@
+# 源码路径（相对于本任务目录）
+代码/old_care_system/code/trainingfalldetection.py
+代码/old_care_system/code/checkingfalldetection.py
+代码/old_care_system/code/testingfalldetection.py
+代码/old_care_system/models/fall_detection.hdf5
+代码/old_care_system/plots/fall_detection_accuracy.png
+代码/old_care_system/plots/fall_detection_loss.png

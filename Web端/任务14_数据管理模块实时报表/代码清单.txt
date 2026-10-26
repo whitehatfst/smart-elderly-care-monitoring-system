@@ -1,0 +1,7 @@
+# 源码路径（相对于本任务目录）
+代码/oldcaresystemweb/app/mod_eventinfo
+代码/oldcaresystemweb/app/post_message.py
+代码/oldcaresystemweb/app/runtime_support.py
+代码/oldcaresystemweb/app/templates/oldperson/datamanagement.html
+代码/oldcaresystemweb/app/static/js/echarts
+代码/oldcaresystemweb/app/static/js/charts.js

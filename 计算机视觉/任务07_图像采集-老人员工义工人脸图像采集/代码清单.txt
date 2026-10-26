@@ -1,0 +1,8 @@
+# 源码路径（相对于本任务目录）
+代码/old_care_system/code/collectingfaces.py
+代码/old_care_system/code/inserting.py
+代码/old_care_system/code/insertingcontrol.py
+代码/old_care_system/code/insertingnewpeople.py
+代码/old_care_system/info
+代码/oldcaresystemweb/app/static/img/oldperson
+代码/oldcaresystemweb/app/static/img/employee

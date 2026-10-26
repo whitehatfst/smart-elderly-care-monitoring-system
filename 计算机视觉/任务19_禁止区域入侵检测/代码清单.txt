@@ -1,0 +1,6 @@
+# 源码路径（相对于本任务目录）
+代码/old_care_system/code/checkingfence.py
+代码/old_care_system/code/testingfence.py
+代码/old_care_system/models/mobilenet_ssd
+代码/old_care_system/supervision/fence
+代码/old_care_system/code/runtime_paths.py

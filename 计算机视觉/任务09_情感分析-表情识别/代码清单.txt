@@ -1,0 +1,10 @@
+# 源码路径（相对于本任务目录）
+代码/old_care_system/code/trainingfacialexpression.py
+代码/old_care_system/code/testingfacialexpression.py
+代码/old_care_system/code/checkingstrangersandfacialexpression.py
+代码/old_care_system/code/oldcare/conv
+代码/old_care_system/code/oldcare/preprocessing
+代码/old_care_system/code/oldcare/callbacks
+代码/old_care_system/models/face_expression.hdf5
+代码/old_care_system/plots/face_expression_accuracy.png
+代码/old_care_system/plots/face_expression_loss.png

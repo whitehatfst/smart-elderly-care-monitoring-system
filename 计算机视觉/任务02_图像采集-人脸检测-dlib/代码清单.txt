@@ -1,0 +1,4 @@
+# 源码路径（相对于本任务目录）
+代码/old_care_system/code/oldcare/facial
+代码/old_care_system/code/collectingfaces.py
+代码/old_care_system/code/runtime_paths.py

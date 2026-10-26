@@ -1,0 +1,8 @@
+# 源码路径（相对于本任务目录）
+代码/oldcaresystemweb/runit.py
+代码/oldcaresystemweb/config.py
+代码/oldcaresystemweb/app/__init__.py
+代码/oldcaresystemweb/readme.txt
+代码/oldcaresystemweb/old_care.sql
+代码/oldcaresystemweb/rebuild_sqlite_from_dump.py
+代码/README.md
